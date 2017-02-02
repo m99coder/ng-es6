@@ -8,5 +8,12 @@
     "url": "git@github.bus.zalan.do:mlehmann1/ng-es6.git"
   },
   "author": "Marco Lehmann <marco.lehmann@zalando.de>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^1.0.0-rc.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.7"
+  }
 }
