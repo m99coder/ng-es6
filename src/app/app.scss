@@ -1,6 +1,5 @@
-$lightBgColor: #f4f0e7;
+@import 'common/common';
 
 .app {
-	height: 100%;
-	background-color: $lightBgColor;
+	padding: 1em;
 }
