@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp webpack",
+    "clean": "gulp clean",
     "start": "gulp serve"
   },
   "repository": {
