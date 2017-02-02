@@ -1,6 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
-var config = require('./webpack.config');
+var config = require('./webpack.common.js');
 
 config.output = {
 	filename: '[name].bundle.js',
