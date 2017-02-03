@@ -28,3 +28,6 @@ Angular 1.x using ES6, Gulp and Webpack as well as Component Generator
 * `npm run test:e2e` – Run E2E tests using `Protractor` (app must run in parallel)
 * `npm run wd:update` – Update Webdriver
 * `npm run wd:start` – Start Webdriver (necessary for `npm run test:e2e`)
+
+It’s heavily based on [NG6-starter](https://github.com/AngularClass/NG6-starter) with slightly changes in
+directory structure and enhanced by E2E test support as well as a basic Dockerfile.
