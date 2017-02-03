@@ -1,0 +1,14 @@
+@import '../common';
+
+.navbar {
+	background-color: $primaryColor;
+
+	h1 {
+		margin: 0;
+		padding: 1rem;
+
+		a {
+			color: #ffffff;
+		}
+	}
+}
