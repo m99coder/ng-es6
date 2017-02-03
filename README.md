@@ -14,3 +14,10 @@ Angular 1.x using ES6, Gulp and Webpack as well as Component Generator
 	* CSS files served as style files
 * `Gulp` as orchestrator with defined targets
 * Unit tests using `Karma` and `Jasmine`
+
+**Build targets**:
+
+* `npm start` – Serve Application with Hot Module Replacement using `BrowserSync`
+* `npm run build` – Build production-ready version of application into `dist`
+* `npm run clean` – Remove production build folder
+* `npm test` – Run unit tests using `Karma`
