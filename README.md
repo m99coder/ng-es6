@@ -1,7 +1,7 @@
 # ng-es6
 Angular 1.x using ES6, Gulp and Webpack as well as Component Generator
 
-*Features* so far:
+**Features** so far:
 
 * `Babel` as transpiler for ES6 to ES5
 * `Webpack` as bundler
@@ -13,3 +13,4 @@ Angular 1.x using ES6, Gulp and Webpack as well as Component Generator
 	* SASS files transpiled to CSS
 	* CSS files served as style files
 * `Gulp` as orchestrator with defined targets
+* Unit tests using `Karma` and `Jasmine`
