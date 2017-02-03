@@ -1,3 +1,5 @@
+var webpackConfig = require('./webpack.common');
+
 module.exports = function(config) {
 	config.set({
 		basePath: '',
@@ -14,12 +16,7 @@ module.exports = function(config) {
 		preprocessors: {'spec.bundle.js': ['webpack']},
 		webpack: {
 			module: {
-				loaders: [
-					{test: /\.js$/,	exclude: [/node_modules/], loader: 'ng-annotate!babel'},
-					{test: /\.html$/, loader: 'raw'},
-					{test: /\.scss$/, loader: 'style!css!sass'},
-					{test: /\.css$/, loader: 'style!css'}
-				]
+				loaders: webpackConfig.module.loaders
 			}
 		},
 		webpackServer: {
