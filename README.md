@@ -20,4 +20,7 @@ Angular 1.x using ES6, Gulp and Webpack as well as Component Generator
 * `npm start` – Serve Application with Hot Module Replacement using `BrowserSync`
 * `npm run build` – Build production-ready version of application into `dist`
 * `npm run clean` – Remove production build folder
-* `npm test` – Run unit tests using `Karma`
+* `npm run test:unit` – Run unit tests using `Karma` (an alias is `npm test`)
+* `npm run test:e2e` – Run E2E tests using `Protractor` (app must run in parallel)
+* `npm run wd:update` – Update Webdriver
+* `npm run wd:start` – Start Webdriver (necessary for `npm run test:e2e`)

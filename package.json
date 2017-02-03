@@ -7,7 +7,11 @@
     "build": "gulp webpack",
     "clean": "gulp clean",
     "start": "gulp serve",
-    "test": "karma start config/karma.js"
+    "test": "npm run test:unit",
+    "test:e2e": "protractor config/protractor.js",
+    "test:unit": "karma start config/karma.js",
+    "wd:start": "webdriver-manager start",
+    "wd:update": "webdriver-manager update"
   },
   "repository": {
     "type": "git",
@@ -38,6 +42,7 @@
     "gulp-util": "^3.0.8",
     "html-webpack-plugin": "^1.7.0",
     "jasmine-core": "^2.4.1",
+    "jasmine-spec-reporter": "^2.7.0",
     "karma": "^0.12.37",
     "karma-chrome-launcher": "^0.2.3",
     "karma-coverage": "^1.1.1",
@@ -49,6 +54,7 @@
     "ng-annotate-loader": "0.0.10",
     "node-sass": "^3.13.1",
     "phantomjs-prebuilt": "^2.1.14",
+    "protractor": "^4.0.14",
     "raw-loader": "^0.5.1",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.12.4",
