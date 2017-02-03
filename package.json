@@ -6,6 +6,8 @@
   "scripts": {
     "build": "gulp webpack",
     "clean": "gulp clean",
+    "docker:build": "docker build -t my-angular-app .",
+    "docker:run": "docker run -p 3000:80 -it my-angular-app",
     "start": "gulp serve",
     "test": "npm run test:unit",
     "test:e2e": "protractor config/protractor.js",
