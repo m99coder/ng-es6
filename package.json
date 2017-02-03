@@ -55,22 +55,5 @@
     "webpack": "^1.14.0",
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.16.1"
-  },
-  "babel": {
-    "plugins": [
-      "transform-runtime",
-      [
-        "istanbul",
-        {
-          "exclude": [
-            "config/**"
-          ]
-        }
-      ]
-    ],
-    "presets": [
-      "es2015",
-      "stage-0"
-    ]
   }
 }

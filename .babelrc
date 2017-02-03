@@ -1,0 +1,18 @@
+{
+	"plugins": [
+		"transform-runtime",
+		[
+			"istanbul",
+			{
+				"exclude": [
+					"config/**",
+					"src/app/**/*.spec.js"
+				]
+			}
+		]
+	],
+	"presets": [
+		"es2015",
+		"stage-0"
+	]
+}
