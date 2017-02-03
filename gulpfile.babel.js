@@ -13,7 +13,8 @@ import webpackHotMiddleware from 'webpack-hot-middleware';
 let root = 'src';
 
 let paths = {
-	dest: path.join(__dirname, 'dist'),
+	coverage: path.join(__dirname, 'coverage'),
+	dist: path.join(__dirname, 'dist'),
 	entry: [
 		'babel-polyfill',
 		path.join(__dirname, root, 'app/app.js')
@@ -67,7 +68,7 @@ gulp.task('serve', () => {
 });
 
 gulp.task('clean', (cb) => {
-	del([paths.dest]).then(function(paths) {
+	del([paths.dist, paths.coverage]).then(function(paths) {
 		gutil.log('[clean]', paths);
 		cb();
 	})

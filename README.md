@@ -13,7 +13,7 @@ Angular 1.x using ES6, Gulp and Webpack as well as Component Generator
 	* SASS files transpiled to CSS
 	* CSS files served as style files
 * `Gulp` as orchestrator with defined targets
-* Unit tests using `Karma` and `Jasmine`
+* Unit tests using `Karma`, `Jasmine`, `PhantomJS` and `Istanbul`
 
 **Build targets**:
 
