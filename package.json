@@ -1,7 +1,7 @@
 {
   "name": "ng-es6",
   "version": "1.0.0",
-  "description": "Angular 1.x using ES6, Gulp and Webpack as well as Component Generator",
+  "description": "Angular 1.x using ES6, Gulp and Webpack",
   "main": "index.js",
   "scripts": {
     "build": "gulp webpack",
